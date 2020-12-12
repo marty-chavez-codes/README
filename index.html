@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body background="/Users/marty-chavez/Downloads/atom.jpg">
+        <header id="header"><h1>WELCOME TO ROCK, PAPER, SCISSORS, LIZARD, SPOCK!!</h1></header>
+        <div class="menu">
+            <h2>Menu</h2>
+            <ul style="list-style: none;">
+                <a href="https://www.youtube-nocookie.com/embed/Kov2G0GouBw?controls=0&amp;start=38" target="_blank" title="click me"><iframe width="640" height="400" src="https://www.youtube-nocookie.com/embed/Kov2G0GouBw?controls=0&amp;start=38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><li>Instructions (Play Video)</li></a>
+                <a href="http://www.samkass.com/theories/RPSSL.html" target="_blank" title="click here"><li>Rock, Paper, Scissors, Lizard, Spock History</li></a>
+            </ul>
+        </div>
+        <center>
+            <div id="game_intro">
+                <h1>Shall We Play A Game?</h1><br>
+                <!-- <h1>The Goal Is Best of Five!</h1><br> -->
+                <h1>Ready to play?</h1><br>
+                <h1>Click the "Start Game" button</h1>
+            <button id="player" onclick="realPlayer.gameStart()">Start Game</button>
+            </div>
+        </center>
+        <center>
+            <div id="player_scores">
+                <h1 id="startOfGame"></h1>
+                <h1 id="playerScore"></h1>
+                <h1 id="computerScore"></h1>
+                <h1 id="makeYourChoice"></h1>
+            </div>
+        </center>
+        <center>
+            <div id="player_result">
+                <h1 id="clickedChoice"></h1>
+                <h1 id="choiceResult"></h1>
+            </div>
+        </center>
+        <center>
+        <div id="player_buttons">
+            <button id="rock" value="Rock" onclick="realPlayer.playerChoosesRock()"><img src="/Users/marty-chavez/Downloads/rock.jpg" alt="Rock" width="120" height="120"></button>
+            <button id="paper" value="Paper" onclick="realPlayer.playerChoosesPaper()"><img src="/Users/marty-chavez/Downloads/paper.jpg" alt="Paper" width="120" height="120"></button>
+            <button id="scissors" value="Scissors" onclick="realPlayer.playerChoosesScissors()"><img src="/Users/marty-chavez/Downloads/scissors.jpg" alt="Scissors" width="120" height="120"></button>
+            <button id="lizard" value="Lizard" onclick="realPlayer.playerChoosesLizard()"><img src="/Users/marty-chavez/Downloads/lizard.jpg" alt="Lizard" width="120" height="120"></button>
+            <button id="spock" value="Spock" onclick="realPlayer.playerChoosesSpock()"><img src="/Users/marty-chavez/Downloads/Spock.jpg" alt="Spock" width="120" height="120"></button>
+        </div>
+        </center>
+        <script src="app.js"></script>
+</body>
+</html>
+
