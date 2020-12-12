@@ -29,26 +29,21 @@ Description of how you approach the game development. Here you will add all the 
 
 #### Wireframe
 
-<img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1601671860/DesignOne_uevwek.png" width="80%" >
+N/A (not sure how to copy/past link to draw.io...will try to share through github)
 
 Color Pallet:
 
-```
-    #5d5174
-    #9680a4
-    #e2deea
-    #545454
-    #e4e0dd
-    #ffffff
-```
+#f5f5f5;
+#808080;
+#40e0d0;
+
 
 #### User stories
 
-
+N/A
 
 #### Development Plan 
 
-description of your development plan 
 
 * Development Plan  One - Did class Player and class Computer on draw.io as well as wireframe - wasn't that successful
 * Development Plan  Two - No true second Dev Plan.  with game flow and general idea in mind, I kind of just went about the HTML w/ CSS to start to build out index.html
@@ -64,16 +59,14 @@ description of your development plan
 
 #### Stretch goals
 
-* Stretch goals ONE
+* Stretch goals One - Add quotes by Sheldor after Win or Lose scenario.
 * Stretch goals Two
 * Stretch goals Three 
 * Stretch goals Four
 
 ## Challenges:
 
-Was unsuccessful in getting score for each player to update.  I believe it's a scoping issue and that's where I'll begin debugging. 
-
-
+Was unsuccessful in getting score for each player to update.  I believe it's a scoping issue and that's where I'll begin debugging. In order to present project i commented out player scores and 'best of five' indicator.
 
 
 ### App Demo: www.linkegoeshere.com
