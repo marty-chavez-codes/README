@@ -7,7 +7,7 @@
 
 ## Concept:
 
-A full description of what your project is all about 
+This game is an updated and geek version of the Classic Rock, Paper, Scissors.  It was brought to wider circles by being featured a few times in The Big Bang Theory.  Due to this, I used a Big Bang Theory theme to create and run game. 
 
 ## Technologies Used:
 
