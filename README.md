@@ -1,7 +1,7 @@
 
 # App Title: ROCK, PAPER, SCISSORS, LIZARD, SPOCK
 
-### App Demo: www.linkegoeshere.com
+### App Demo: https://marty-chavez-codes.github.io/Rock-Paper-Scissors-Lizard-Spock/
 
 ---
 
@@ -69,4 +69,4 @@ N/A
 Was unsuccessful in getting score for each player to update.  I believe it's a scoping issue and that's where I'll begin debugging. In order to present project i commented out player scores and 'best of five' indicator.
 
 
-### App Demo: www.linkegoeshere.com
+### App Demo: https://marty-chavez-codes.github.io/Rock-Paper-Scissors-Lizard-Spock/
